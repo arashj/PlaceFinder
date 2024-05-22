@@ -7,7 +7,7 @@ import DeleteConfirmation from "./components/DeleteConfirmation.jsx";
 import logoImg from "./assets/logo.png";
 
 import { sortPlacesByDistance } from "./loc.js";
-// This is a placePicker web app
+// This is a placeFinder web app
 function App() {
   const modal = useRef();
   const selectedPlace = useRef();
